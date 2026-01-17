@@ -30,7 +30,7 @@ jump:
 
 	do {
 		puts("----------------------------------");
-		puts("Sto zelite uciniti?\n1 - Ispisi samo roditelje\n2 - Ispisi cijelu listu procesa\n3 - Pronadi proces po PID-u\n4 - Zatvori proces po PID-u\n5 - Osvjezi procese\n0 - Izlaz");
+		puts("Sto zelite uciniti?\n1 - Ispisi samo roditeljske procese i PID-ove\n2 - Ispisi cijelu listu procesa i PID-ove\n3 - Pronadi proces po PID-u\n4 - Zatvori proces po PID-u\n5 - Osvjezi procese\n0 - Izlaz");
 		puts("----------------------------------");
 		option = read_std();
 
