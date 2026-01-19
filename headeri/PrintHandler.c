@@ -9,7 +9,7 @@ void print_tree(Parent* root) {
 	int suboption;
 	do {
 		puts("----------------------------------");
-		puts("Kako zelite ispisati stablo:\n1 - inorder\n2 - preorder\n3 - postorder\n0 - Natrag\n");
+		puts("Kako zelite ispisati stablo:\n1 - inorder\n2 - preorder\n3 - postorder\n0 - Natrag");
 		puts("----------------------------------");
 		suboption = read_std();
 		switch (suboption) {
